@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <title> Site da Thayla </title> 
+        <meta name="descrição do meu site" content="meu primeiro site em html">
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color: mediumpurple;
+            }
+            h1 {
+                color: blue;    
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">    
+    </head>       
+ 
+    <body>
+        <h1>Luís Vaz de Camões</h1>
+        <p style="color:aquamarine">
+            Amor é fogo que arde sem se ver; <br>
+            É ferida que dói e não se sente; <br>
+            É um contentamento descontente; <br>
+            É dor que desatina sem doer. <br>
+            <!-- tag de quebra de linha -->
+            </br></br>    
+            É um não querer mais que bem querer; <br>
+            É um andar solitário entre a gente; <br>
+            É nunca contentar-se de contente; <br>
+            É um cuidar que se ganha em se perder. <br>
+        </p>
+
+
+        <!-- tags de titulo -->
+        <h1>Esse é meu primeiro site! </h1>
+        <h2>Esse é meu primeiro site! </h2>
+        <h3 class="segundasListas">Esse é meu primeiro site! </h3>
+        <h4>Esse é meu primeiro site! </h4>
+        <h5>Esse é meu primeiro site! </h5>
+        <h6>Esse é meu primeiro site! </h6>
+
+        <!-- tag de paragrafo -->
+        <p class="paragrafo">
+            Dizem que é só quando eu pegar no colo <br>
+            Que eu vou sentir o verdadeiro amor <br>
+            Você é a primeira coisa certa <br>
+            De alguém que só errou, só errou <br>
+        </p>
+            <!--Tags de formata;ao de texto --> 
+        <b>Minha frase em negrito! </b>
+        <br/>
+        <i>Minha frase em italico!</i>
+        <br/>
+        <strong>Minha frase forte!</strong>
+        <br/>
+        <small>Minha frase pequena!</small>
+        <br/>
+        <u>Minha frase sublinhada!</u>
+        <br/>
+        <s>Minha frase tachada!</s><br/>
+        Minha frase normal!
+
+
+       <!-- Listas -->  
+       <h2 class="primeirasListas"> Lista ordenada</h2>
+
+       <ol>
+            <li>Medir a glicemia</li> 
+            <li>Tomar minhas vitaminas</li>
+            <li>Me alimentar</li>
+       </ol>
+
+       <h2 class="primeirasListas">Lista ordenada pelo numero que eu quiser</h2>
+       <ol start="5">
+           <li>Estudar</li>
+           <li>Montar um portfolio</li>
+           <li>Entregar o portfolio para nota!!!</li>
+       </ol>
+       
+       <h3 class="segundasListas">Lista em ordem alfabetica</h3>
+       <ol type="a">
+            <li>Estudar</li>
+            <li>Montar um portfolio</li>
+            <li>Entregar o portfolio para nota!!!</li>
+       </ol>
+       
+       <h2 class="primeirasListas">Lista em ordem de algarismo romano</h2>
+       <ol type="I">
+            <li>Estudar</li>
+            <li>Montar um portfolio</li>
+            <li>Entregar o portfolio para nota!!!</li>
+       </ol>
+
+       <h2 class="primeirasListas">Lista desordenada</h2>
+       <ul>
+            <li>Estudar</li>
+            <li>Montar um portfolio</li>
+            <li>Entregar o portfolio para nota!!!</li>
+       </ul>
+
+       <h2 class="segundasListas">Lista desordenada quadradinhos</h2>
+       <ul type="square">
+            <li>Estudar</li>
+            <li>Montar um portfolio</li>
+            <li>Entregar o portfolio para nota!!!</li>
+        </ul>
+
+        <h2 id="titulo">Lista desordenada circulo vazado</h2>
+        <ul type="circle"> 
+            <li>Estudar</li>
+            <li>Montar um portfolio</li>
+            <li>Entregar o portfolio para nota!!!</li>
+        </ul>
+
+        <h1>Tabelas</h1>
+        <table border="3">
+            <!-- tabelas semanticas -->
+
+            <!-- cabeçalho da tabela -->
+            <thead>
+                <tr>
+                    <th>titulo 1</th>
+                    <th>titulo 2</th>
+                    <th>titulo 3</th>
+                </tr>
+            </thead>
+            <!-- cabeçalho da tabela -->
+            <tbody>
+                <tr>
+                    <td>Body1 coluna1</td>
+                    <td>Body2 coluna2</td>
+                    <td>Body3 coluna3</td>
+                </tr> 
+                <tr>
+                    <td>Body1 coluna1</td>
+                    <td>Body2 coluna2</td>
+                    <td>Body3 coluna3</td>
+                </tr>
+                <tr>
+                    <td>Body1 coluna1</td>
+                    <td>Body2 coluna2</td>
+                    <td>Body3 coluna3</td>
+                </tr>
+
+            </tbody>
+
+
+        </table>
+
+        <h1>Inserindo imagens</h1>
+        <h2 class="primeirasListas">Beyonce</h2>
+        <img src=img/beyonce.jpeg width="624" height="600"/>
+        <h2 class="primeirasListas">rihanna</h2>
+        <img src="img/rihanna.png" width="450" height="600"/>
+        <br><br>
+
+        <h1>Links</h1>
+        <a href="https://www.linkedin.com/feed/" target="_blank"> linkedin</a>
+
+        <h1>Formularios</h1>
+
+        <form>
+            <labet>Nome:</labet> <br/>
+            <input type="text"/>
+            <br/><br/>
+
+            <labet>Email:</labet> <br/>
+            <input type="email"/>
+            <br/><br/> 
+
+            <labet>Senha:</labet> <br/>
+            <input type="password"/>
+            <br/><br/>
+
+            <labet>Mensagem:</labet> <br/>
+            <textarea></textarea>
+            <br/><br/>
+            <button type="submit">Enviar</button>
+        </form>
+
+          
+    </body>
+
+
+</html>

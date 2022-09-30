@@ -1,0 +1,20 @@
+.primeirasListas{
+    color: brown;
+}
+
+.segundasListas{
+    color: coral;
+}
+
+#titulo{
+    color: darkmagenta;
+}
+
+.paragrafo{
+     font-size: 15px;
+     font-family:  sans-serif;
+     line-height: 2;
+     border-width: 8px;
+     border: groove;
+     border-color: #cf1339;
+}
